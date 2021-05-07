@@ -1,0 +1,6 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/example/bmi_calculator/BuildConfig.java
+ com.example.bmi_calculator.BuildConfig
+com/example/bmi_calculator/MainActivity.java
+ com.example.bmi_calculator.MainActivity

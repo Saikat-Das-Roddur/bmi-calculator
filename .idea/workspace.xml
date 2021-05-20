@@ -3,8 +3,36 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d0d06f2-5d81-4a2a-8787-95f8494e84db" name="Default Changelist" comment="" />
+    <list default="true" id="1d0d06f2-5d81-4a2a-8787-95f8494e84db" name="Default Changelist" comment="Slider added">
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/0d2af5f436d6ba018ae30f5a10306ff8/.filecache" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/0d2af5f436d6ba018ae30f5a10306ff8/.filecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/0d2af5f436d6ba018ae30f5a10306ff8/app.dill" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/0d2af5f436d6ba018ae30f5a10306ff8/app.dill" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/0d2af5f436d6ba018ae30f5a10306ff8/kernel_snapshot.d" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/0d2af5f436d6ba018ae30f5a10306ff8/kernel_snapshot.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/0d2af5f436d6ba018ae30f5a10306ff8/kernel_snapshot.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/0d2af5f436d6ba018ae30f5a10306ff8/kernel_snapshot.stamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/kernel_blob.bin.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/kernel_blob.bin.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_build.d" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_build.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/apk/debug/app-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app.apk.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app.apk.sha1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/f872507f30e2ff2523f0f1d19160266e.cache.dill.track.dill" beforeDir="false" afterPath="$PROJECT_DIR$/build/f872507f30e2ff2523f0f1d19160266e.cache.dill.track.dill" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/constant.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/constant.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/input_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/input_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +47,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="WARN_ABOUT_CRLF" value="false" />
   </component>
   <component name="ProjectId" id="1rvTxDsYrE3gCSjDVKRkwWVNdaK" />
   <component name="ProjectLevelVcsManager">
@@ -35,7 +64,7 @@
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Department Infos/DeptInfoSystem" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -60,29 +89,69 @@
       <option name="presentableId" value="Default" />
       <updated>1619855807198</updated>
     </task>
+    <task id="LOCAL-00001" summary="Slider added">
+      <created>1620408126016</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1620408126016</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Slider added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Slider added" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1797" height="540" key="GridCell.Tab.0.bottom" timestamp="1620400263263">
+    <state x="167" y="131" width="1653" height="849" key="AVDManager" timestamp="1621491453813">
       <screen x="67" y="33" width="1853" height="1047" />
     </state>
-    <state width="1797" height="540" key="GridCell.Tab.0.bottom/67.33.1853.1047@67.33.1853.1047" timestamp="1620400263263" />
-    <state width="1797" height="540" key="GridCell.Tab.0.center" timestamp="1620400263262">
+    <state x="167" y="131" width="1653" height="849" key="AVDManager/67.33.1853.1047@67.33.1853.1047" timestamp="1621491453813" />
+    <state x="723" y="256" width="530" height="598" key="FileChooserDialogImpl" timestamp="1620452867529">
       <screen x="67" y="33" width="1853" height="1047" />
     </state>
-    <state width="1797" height="540" key="GridCell.Tab.0.center/67.33.1853.1047@67.33.1853.1047" timestamp="1620400263262" />
-    <state width="1797" height="540" key="GridCell.Tab.0.left" timestamp="1620400263261">
+    <state x="723" y="256" width="530" height="598" key="FileChooserDialogImpl/67.33.1853.1047@67.33.1853.1047" timestamp="1620452867529" />
+    <state width="1797" height="508" key="GridCell.Tab.0.bottom" timestamp="1621491446385">
       <screen x="67" y="33" width="1853" height="1047" />
     </state>
-    <state width="1797" height="540" key="GridCell.Tab.0.left/67.33.1853.1047@67.33.1853.1047" timestamp="1620400263261" />
-    <state width="1797" height="540" key="GridCell.Tab.0.right" timestamp="1620400263262">
+    <state width="1797" height="508" key="GridCell.Tab.0.bottom/67.33.1853.1047@67.33.1853.1047" timestamp="1621491446385" />
+    <state width="1797" height="508" key="GridCell.Tab.0.center" timestamp="1621491446384">
       <screen x="67" y="33" width="1853" height="1047" />
     </state>
-    <state width="1797" height="540" key="GridCell.Tab.0.right/67.33.1853.1047@67.33.1853.1047" timestamp="1620400263262" />
+    <state width="1797" height="508" key="GridCell.Tab.0.center/67.33.1853.1047@67.33.1853.1047" timestamp="1621491446384" />
+    <state width="1797" height="508" key="GridCell.Tab.0.left" timestamp="1621491446383">
+      <screen x="67" y="33" width="1853" height="1047" />
+    </state>
+    <state width="1797" height="508" key="GridCell.Tab.0.left/67.33.1853.1047@67.33.1853.1047" timestamp="1621491446383" />
+    <state width="1797" height="508" key="GridCell.Tab.0.right" timestamp="1621491446384">
+      <screen x="67" y="33" width="1853" height="1047" />
+    </state>
+    <state width="1797" height="508" key="GridCell.Tab.0.right/67.33.1853.1047@67.33.1853.1047" timestamp="1621491446384" />
     <state x="358" y="33" width="1280" height="1047" key="SettingsEditor" timestamp="1619857562317">
       <screen x="67" y="33" width="1853" height="1047" />
     </state>
     <state x="358" y="33" width="1280" height="1047" key="SettingsEditor/67.33.1853.1047@67.33.1853.1047" timestamp="1619857562317" />
+    <state x="488" y="228" width="1000" height="654" key="Vcs.Push.Dialog.v2" timestamp="1620408128358">
+      <screen x="67" y="33" width="1853" height="1047" />
+    </state>
+    <state x="488" y="228" width="1000" height="654" key="Vcs.Push.Dialog.v2/67.33.1853.1047@67.33.1853.1047" timestamp="1620408128358" />
+    <state x="734" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1620754064942">
+      <screen x="67" y="33" width="1853" height="1047" />
+    </state>
+    <state x="734" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/67.33.1853.1047@67.33.1853.1047" timestamp="1620754064942" />
     <state x="572" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1620399448791">
       <screen x="67" y="33" width="1853" height="1047" />
     </state>

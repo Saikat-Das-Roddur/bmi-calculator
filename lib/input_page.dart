@@ -1,9 +1,14 @@
+import 'package:bmi_calculator/calculator_brain.dart';
+import 'package:bmi_calculator/result_page.dart';
 import 'package:bmi_calculator/reusable_card.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
+import 'bottom_button.dart';
 import 'constant.dart';
 import 'icon_content.dart';
+import 'rounded_icon _button.dart';
 
 enum Gender { male, female }
 
@@ -17,6 +22,10 @@ class _InputPagePageState extends State<InputPage> {
   // Color femaleCardColor = inactiveCardColor;
   Gender selectGender;
   int height = 120;
+  int weight = 60;
+  int age = 20;
+
+
 
   // void updateColor(Gender selectedGender) {
   //   if (selectedGender == Gender.male) {
@@ -37,6 +46,7 @@ class _InputPagePageState extends State<InputPage> {
   //     }
   //   }
   // }
+
 
   @override
   Widget build(BuildContext context) {
@@ -115,27 +125,25 @@ class _InputPagePageState extends State<InputPage> {
                   ),
                   SliderTheme(
                     data: SliderTheme.of(context).copyWith(
-                      activeTrackColor: Colors.white,
-                      inactiveTrackColor: Color(0xff8d898),
-                      overlayColor: Color(0x29eb1555),
-                      thumbColor: bottomCardColor,
-                      thumbShape: RoundSliderThumbShape(
-                        enabledThumbRadius: 15
-                      ),
-                      overlayShape: RoundSliderOverlayShape(
-                        overlayRadius: 30
-                      )
-                    ),
-                    child: Slider(value: height.toDouble(),
+                        activeTrackColor: Colors.white,
+                        inactiveTrackColor: Color(0xff8d898),
+                        overlayColor: Color(0x29eb1555),
+                        thumbColor: bottomCardColor,
+                        thumbShape:
+                            RoundSliderThumbShape(enabledThumbRadius: 15),
+                        overlayShape:
+                            RoundSliderOverlayShape(overlayRadius: 30)),
+                    child: Slider(
+                        value: height.toDouble(),
                         min: 120,
                         max: 220,
                         // activeColor: bottomCardColor,
                         // inactiveColor: inactiveCardColor,
                         onChanged: (value) {
-                      setState(() {
-                        height = value.toInt();
-                      });
-                    }),
+                          setState(() {
+                            height = value.toInt();
+                          });
+                        }),
                   )
                 ],
               ),
@@ -147,24 +155,91 @@ class _InputPagePageState extends State<InputPage> {
                 Expanded(
                   child: ReusableCard(
                     color: cardColor,
+                    cardChild: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Text(
+                          "Weight",
+                          style: labelStyle,
+                        ),
+                        Text(
+                          weight.toString(),
+                          style: textStyle,
+                        ),
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            RoundIconButton(iconData: FontAwesomeIcons.plus,onPress: (){
+                              setState(() {
+                                weight++;
+                              });
+                            },),
+                            SizedBox(width: 10,),
+                            RoundIconButton(iconData: FontAwesomeIcons.minus,onPress:(){
+                              setState(() {
+                                weight--;
+                              });
+                            }),
+                          ],
+                        )
+                      ],
+                    ),
                   ),
                 ),
                 Expanded(
                   child: ReusableCard(
                     color: cardColor,
+                    cardChild: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Text(
+                          "Age",
+                          style: labelStyle,
+                        ),
+                        Text(
+                          age.toString(),
+                          style: textStyle,
+                        ),
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            RoundIconButton(iconData: FontAwesomeIcons.plus,onPress: (){
+                              setState(() {
+                                age++;
+                              });
+                            },),
+                            SizedBox(width: 10,),
+                            RoundIconButton(iconData: FontAwesomeIcons.minus,onPress:(){
+                              setState(() {
+                                age--;
+                              });
+                            }),
+                          ],
+                        )
+                      ],
+                    ),
                   ),
                 ),
               ],
             ),
           ),
-          Container(
-            color: bottomCardColor,
-            margin: EdgeInsets.only(top: 10),
-            width: double.infinity,
-            height: bottomContainerHeight,
-          )
+          BottomButton(onTap: (){
+            CalculatorBrain _calculatorBrain = CalculatorBrain(height: height, weight: weight);
+            //final String interpretation = _calculatorBrain.getInterpretation();
+            Navigator.push(context,
+                MaterialPageRoute(builder:(context)=> Resultpage(
+                    bmiResult: _calculatorBrain.calculateBMI(),
+                  resultText: _calculatorBrain.getResult(),
+                  interpretation: _calculatorBrain.getInterpretation(),
+                )
+                )
+            );
+          },buttonText: "calculate".toUpperCase(),)
         ],
       ),
     );
   }
 }
+
+
+
